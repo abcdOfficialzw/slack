@@ -4,6 +4,7 @@ import 'package:slack/app/views/widgets/app_bar/app_bar_bottom.dart';
 import 'package:slack/utils/constants/dimens.dart';
 
 import '../widgets/app_bar/app_bar_leading.dart';
+import '../widgets/body/body.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -26,6 +27,7 @@ class HomePage extends StatelessWidget {
         actions: AppBarActions.actions,
         bottom: AppBarBottom.bottom,
       ),
+      body: const Body(),
     );
   }
 }
